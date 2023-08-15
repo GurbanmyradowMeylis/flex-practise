@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .heading {
+    @apply text-gray-700 text-3xl;
+  }
+  .about__heading {
+    @apply text-gray-700 text-2xl;
+  }
+  .flex-element {
+    @apply flex flex-col bg-cyan-900  pb-5 pt-2 px-1 rounded flex-[0_0_25.25%];
+  }
+  .flex-header {
+    @apply text-center heading text-white pb-2 uppercase;
+  }
+  .flex-price {
+    @apply bg-white heading text-center uppercase;
+  }
+  .flex-content {
+    @apply p-5 flex-auto;
+  }
+  .flex-button {
+    @apply bg-white heading text-4xl p-2 pt-0;
+  }
+}
